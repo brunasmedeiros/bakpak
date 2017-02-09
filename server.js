@@ -15,9 +15,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname));
 
-app.get('/', function(req,res){
-    res.send(200).end();
-})
+// app.get('/', function(req,res){
+//     res.send(200).end();
+// })
 
 app.post('/hotels', function(req,res){
   query.city = req.body.city;

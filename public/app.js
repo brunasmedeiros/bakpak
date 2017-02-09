@@ -10,6 +10,9 @@ app.config(function ($routeProvider) {
     .when('/explore', {
       templateUrl: './public/explore.html'
     })
+    .when('/where', {
+      templateUrl: './public/place.html'
+    })
     .when('/reserve', {
       templateUrl: './public/reserve.html'
     })
