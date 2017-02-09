@@ -8,13 +8,13 @@ app.config(function ($routeProvider) {
       templateUrl: './public/home.html'
     })
     .when('/explore', {
-      templateUrl: './public/explore.html'
+      templateUrl: './public/temporary.html'
     })
     .when('/where', {
       templateUrl: './public/place.html'
     })
     .when('/reserve', {
-      templateUrl: './public/reserve.html'
+      templateUrl: './public/temporary.html'
     })
     .when('/login', {
       templateUrl: './public/login.html'
