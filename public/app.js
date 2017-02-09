@@ -13,6 +13,9 @@ app.config(function ($routeProvider) {
     .when('/reserve', {
       templateUrl: './public/reserve.html'
     })
+    .when('/login', {
+      templateUrl: './public/login.html'
+    })
     .otherwise({
       redirectTo: '/',
     })

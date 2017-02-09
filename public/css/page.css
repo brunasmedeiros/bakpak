@@ -5,6 +5,7 @@ html {
   background-attachment: fixed;
   min-height: 100%; 
   background-image: url("bg.png");
+  font-family: 'Lato', sans-serif;
 }
 body {
   background-size: cover;                      
