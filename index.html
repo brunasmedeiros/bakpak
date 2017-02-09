@@ -1,34 +1,38 @@
   <html ng-app='bakpak'>
     <head>
       <title> BakPak </title>
-      <link type="text/css" rel="stylesheet" href="/public/css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
       <link type="text/css" rel="stylesheet" href="/public/css/page.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="/public/js/materialize.min.js"></script>
+
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
     </head>
 
     <body ng-controller="exploreController">
+
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="/public/js/materialize.min.js"></script>
+
       <nav>
-        <div id=navbar class="nav-wrapper">
-          <a href='/'> <img src="http://i.imgur.com/QfK30Pv.png" id=logo href="#" className="brand-logo" /> </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li ><a href="/#/explore">EXPLORE</a></li>
-              <li ><a href="/#/reserve">RESERVE</a></li>
+        <div id=navbar class="nav-wrapper blue-grey darken-3">
+ <!--          <a href='/'> <img src="http://i.imgur.com/QfK30Pv.png" id=logo href="#" className="brand-logo" /> </a> -->
+            <ul id="nav-mobile" class="right">
+              <li ><a href="">LOGIN</a></li>
             </ul>
         </div>
       </nav>
-      <div class="container" id="inputarea">
+     <!--  <div class="container" id="inputarea">
         <LABEL id="label">Where are we going?</LABEL>
           <div class="center-align">
             <input id="input" type="text" ng-model='city' placeholder="Example: San Francisco, CA" />
               <a href="/#/explore" class="waves-effect waves-light btn" ng-click='weatherApi(); restaurantsApi(); artsApi(); promosApi(); eventsApi(); imagesApi()'> EXPLORE </a>
               <a href="/#/reserve" class="waves-effect waves-light btn" ng-click="hotelsApi(); imagesApi()">RESERVE </a>
           </div>
-      </div>
+      </div> -->
       </br>
       <div ng-view></div>
       <script src="/public/app.js"></script>
