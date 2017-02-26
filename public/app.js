@@ -1,6 +1,7 @@
 var app = angular.module('bakpak', [
   'ngRoute',
-  'bakpak.explore'])
+  'bakpak.explore',
+  'bakpak.search'])
 
 app.config(function ($routeProvider) {
   $routeProvider

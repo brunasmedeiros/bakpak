@@ -1,9 +1,9 @@
-<div class="container">
+<div class="container" ng-controller='searchBar'>
   <div class="row">
   <br><br><br><br>
     <LABEL id="label">Where are you going?<br></LABEL>
     <div class="input-field col m6 l12 center-align">
-      <input id="input" type="text" ng-model='city' placeholder="Example: San Francisco, CA" />
+      <input id="input" type="text" ng-change='test()' ng-model='city' placeholder="Example: San Francisco, CA" />
         <a href="/#/explore" class="waves-effect waves-light btn blue-grey darken-3"> EXPLORE </a>
         <a href="/#/reserve" class="waves-effect waves-light btn blue-grey darken-3">RESERVE </a>
     </div>
