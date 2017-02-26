@@ -55,13 +55,13 @@ select {
 }
 
 #label {
-  font-family: 'sansblack';
-  font-size: 130%;
+  font-family: 'Russo One', sans-serif;
+  font-size: 23px;
   color: #464a51;
 }
 #label2 {
   font-family: 'sansblack';
-  font-size: 130%;
+  font-size: 130%;  
   color: #464a51;
 }
 #left {
@@ -89,17 +89,6 @@ select {
   height: 50px;
   width: 50px;
 }
-@font-face {
-    font-family: 'sansblack';
-    src: url('NexaRustSans-Black-Free-webfont.eot');
-    src: url('NexaRustSans-Black-Free-webfont.eot?#iefix') format('embedded-opentype'),
-         url('NexaRustSans-Black-Free-webfont.woff2') format('woff2'),
-         url('NexaRustSans-Black-Free-webfont.woff') format('woff'),
-         url('NexaRustSans-Black-Free-webfont.ttf') format('truetype'),
-         url('NexaRustSans-Black-Free-webfont.svg#nexa_rust_sansblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 #logo{
   height: 188px;
@@ -120,3 +109,4 @@ select {
    border-bottom: 1px solid #37474f !important;
    box-shadow: 0 1px 0 0 #37474f !important
  }
+
