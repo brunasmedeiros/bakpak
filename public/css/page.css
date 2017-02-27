@@ -55,9 +55,9 @@ select {
 }
 
 #label {
-  font-family: 'Russo One', sans-serif;
+  /*font-family: 'Russo One', sans-serif;*/
   font-size: 23px;
-  color: #464a51;
+  /*color: #464a51;*/
 }
 #label2 {
   font-family: 'sansblack';
